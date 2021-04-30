@@ -1,0 +1,405 @@
+.hepsi{
+    width: 1200px;
+    height: 3365px;
+    margin: 0 auto;
+    background-color: #f3f3f386;
+}
+
+/* for menu */
+.menu{
+    width: 1200px;
+    height: 50px;
+    background-color: #caa04f;
+}
+
+.menu ul li{
+    float:left;
+    list-style-type: none;   
+}
+
+.menu ul li a{
+    height:50px;
+    display:block;
+    margin: 15px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu ul li#personal_info a{ width:120px}
+.menu ul li#summary a{ width:40px}
+.menu ul li#work_experience a{ width:150px;}
+.menu ul li#education_info a{ width:120px;}
+.menu ul li#skills a{ width:80px}
+.menu ul li#languages a{ width:50px}
+.menu ul li#projects a{ width:60px}
+.menu ul li#courses a{ width:60px}
+.menu ul li#hobbies a{ width:60px}
+
+.menu ul li a:hover{
+    font-style: helvetica;
+    font: bold 18px black;
+}
+
+
+
+/* for personal info */
+.personalInfo{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid gray;
+    width: 1200px;
+    height: 400px;
+    margin: 10px 0 0 0;
+}
+
+.personalInfoTitle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    height: 50px;
+    background-color: #caa04f;
+}
+
+.personalInfoTitle a{
+    display: block; 
+    width: 200px; 
+    height: 50px;
+    margin: 0 auto; 
+    text-align: center;
+    font: bold 20px helvetica;
+}
+
+.personalInfoUserPhoto{
+    float:left;
+    width:150px;
+    height:200px;
+    margin: 70px 0 0 200px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.personalInfoUserPhoto span{
+    display: block;
+    margin: 10px 0 0 10px;
+    font:bold 20px helvetica;
+}
+
+img {
+    border-radius: 20px;
+  }
+
+.personalInfoUserInfo{
+    float:left;
+    width: 600px;
+    height: 270px;
+    margin: 70px 0 0 0;
+    text-align: center;
+}
+
+.personalInfoUserInfoLeft{
+    float: left;
+    width: 300px;
+    height: 270px;;
+}
+
+.personalInfoUserInfoLeft span{
+    font: bold 12px helvetica;
+    color:grey;
+}
+
+.personalInfoUserInfoRight{
+    float: left;
+    width: 300px;
+    height: 100px;
+}
+
+.personalInfoUserInfoRight span{
+    font: bold 12px helvetica;
+    color: gray;
+}
+
+.personalInfoUserInfo a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.personalInfo a:hover{
+    font: bold 15px black;
+}
+
+/* for  summary*/
+.summary{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid gray;
+    width: 1200px;
+    height: 200px;
+    margin: 10px 0 0 0
+}
+
+.summaryTitle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    height: 35px;
+    background-color: #caa04f;
+    text-align: center;
+    font: bold 20px helvetica;
+    padding: 15px 0 0 0;
+}
+
+.summaryContent{
+    width: 800px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+/* for work experience */
+.workExperience{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 1200px;
+    height: 270px;
+    margin: 10px 0 0 0
+}
+
+.workExperienceTitle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    height: 35px;
+    background-color: #caa04f;
+    text-align: center;
+    font: bold 20px helvetica;
+    padding: 15px 0 0 0;
+}
+
+.workExperienceAndEducationAndCoursesInfo{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 1200px;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.workExperienceAndEducationAndCoursesInfoLeft{
+    float:left;
+    width:200px;
+    height:40px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.workExperienceAndEducationAndCoursesInfoRight{
+    float:left;
+    width:400px;
+    height:60px;
+    margin: 15px auto;
+}
+
+/* for education info*/
+.educationInfo{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 1200px;
+    height: 400px;
+    margin: 10px 0 0 0
+}
+
+.educationInfoTitle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    height: 35px;
+    background-color: #caa04f;
+    text-align: center;
+    font: bold 20px helvetica;
+    padding: 15px 0 0 0;
+}
+
+/* for skills */
+.skills{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid gray;
+    width: 1200px;
+    height: 500px;
+    margin: 10px 0 0 0
+}
+
+.skillsTitle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    height: 35px;
+    background-color: #caa04f;
+    text-align: center;
+    font: bold 20px helvetica;
+    padding: 15px 0 0 0;
+}
+
+.material-icons.star { font-size: 30px; color:#caa04f; }
+
+.skillsContent{
+    width: 800px;
+    height: 400px;
+    margin: 10px auto;
+}
+
+.skillsContentLeft{
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.skillsContentRight{
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.skillsContentLeft a{
+    font-size: 24px;
+}
+.skillsContentRight a{
+    font-size: 24px;
+}
+
+/* for projects*/
+.projects{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid gray;
+    width: 1200px;
+    height: 900px;
+    margin: 10px 0 0 0
+}
+
+.projectsTitle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    height: 35px;
+    background-color: #caa04f;
+    text-align: center;
+    font: bold 20px helvetica;
+    padding: 15px 0 0 0;
+}
+
+.projectsContent{
+    width: 1000px;
+    height:750px;
+    margin: 30px auto;
+}
+
+.projectsContent span{
+    font: bold 20px helvetica;
+}
+
+/* for courses */
+.courses{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 1200px;
+    height: 170px;
+    margin: 10px 0 0 0
+}
+
+.coursesTitle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    height: 35px;
+    background-color: #caa04f;
+    text-align: center;
+    font: bold 20px helvetica;
+    padding: 15px 0 0 0;
+}
+
+/* for hobbies */
+.hobbies{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 1200px;
+    height: 170px;
+    margin: 10px 0 0 0;
+    border-bottom: 2px solid gray;
+}
+
+.hobbiesTitle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    height: 35px;
+    background-color: #caa04f;
+    text-align: center;
+    font: bold 20px helvetica;
+    padding: 15px 0 0 0;
+}
+.hobbiesContent{
+    width: 200px;
+    height: 90px;
+    margin: 20px 0 0 50px;
+}
+
+/* for languages*/
+.languages{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 1200px;
+    height: 170px;
+    margin: 10px 0 0 0;
+    border-bottom: 2px solid gray;
+}
+
+.languagesTitle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    height: 35px;
+    background-color: #caa04f;
+    text-align: center;
+    font: bold 20px helvetica;
+    padding: 15px 0 0 0;
+}
+
+.languagesContent{
+    width: 200px;
+    height: 60px;
+    margin: 30px 0 0 60px;
+}
+
+.languagesContent a{
+    font-size: 24px;
+}
+
+.footer{
+    width: 1200px;
+    height: 40px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.footer span{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
